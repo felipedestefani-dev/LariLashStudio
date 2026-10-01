@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lari Lash Studio</title>
+    <meta
+      name="description"
+      content="Lari Lash Studio em Nova Odessa. Extensão de cílios e design. Agende pelo WhatsApp."
+    />
+    <meta name="theme-color" content="#fff7f8" />
+    <link rel="icon" href="images/logo-full.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=7" />
+  </head>
+  <body>
+    <header class="top">
+      <img class="logo" src="images/logo-full.jpg?v=circle" alt="Lari Lash Studio" />
+      <p class="city">Nova Odessa</p>
+      <nav class="nav" aria-label="Seções do site">
+        <a href="#servicos" aria-current="page">Serviços</a>
+        <a href="#trabalhos">Trabalhos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="block" id="servicos">
+        <div class="block-head">
+          <h2>Serviços</h2>
+          <p>Confira nossos serviços.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filtrar serviços">
+          <button type="button" class="filter is-on" data-filter="todas">Todos</button>
+          <button type="button" class="filter" data-filter="design">Design</button>
+          <button type="button" class="filter" data-filter="volumes">Volumes</button>
+        </div>
+
+        <div class="list" id="lista">
+          <article class="row" data-category="design" data-name="design simples sobrancelha">
+            <h3>Design simples</h3>
+            <p class="meta">Design de sobrancelha</p>
+            <p class="price"><span>Valor</span>R$ 25,00</p>
+            <p class="price price-empty"><span>Manutenção</span>—</p>
+            <a class="btn" data-service="Design simples" href="#">Agendar</a>
+          </article>
+
+          <article class="row" data-category="volumes" data-name="volume glamour">
+            <h3>Volume Glamour</h3>
+            <p class="meta">Volume</p>
+            <p class="price"><span>Aplicação</span>R$ 110,00</p>
+            <p class="price"><span>Manutenção</span>R$ 90,00</p>
+            <a class="btn" data-service="Volume Glamour" href="#">Agendar</a>
+          </article>
+
+          <article class="row" data-category="volumes" data-name="volume brasileiro">
+            <h3>Volume Brasileiro</h3>
+            <p class="meta">Volume</p>
+            <p class="price"><span>Aplicação</span>R$ 100,00</p>
+            <p class="price"><span>Manutenção</span>R$ 80,00</p>
+            <a class="btn" data-service="Volume Brasileiro" href="#">Agendar</a>
+          </article>
+
+          <article class="row" data-category="volumes" data-name="volume egipcio egípcio 3d">
+            <h3>Volume Egípcio (3D)</h3>
+            <p class="meta">Volume 3D</p>
+            <p class="price"><span>Aplicação</span>R$ 100,00</p>
+            <p class="price"><span>Manutenção</span>R$ 80,00</p>
+            <a class="btn" data-service="Volume Egípcio (3D)" href="#">Agendar</a>
+          </article>
+
+          <article class="row" data-category="volumes" data-name="volume ingles inglês 4d">
+            <h3>Volume Inglês (4D)</h3>
+            <p class="meta">Volume 4D</p>
+            <p class="price"><span>Aplicação</span>R$ 110,00</p>
+            <p class="price"><span>Manutenção</span>R$ 90,00</p>
+            <a class="btn" data-service="Volume Inglês (4D)" href="#">Agendar</a>
+          </article>
+
+          <article class="row" data-category="volumes" data-name="volume arabe árabe 5d">
+            <h3>Volume Árabe (5D)</h3>
+            <p class="meta">Volume 5D</p>
+            <p class="price"><span>Aplicação</span>R$ 110,00</p>
+            <p class="price"><span>Manutenção</span>R$ 90,00</p>
+            <a class="btn" data-service="Volume Árabe (5D)" href="#">Agendar</a>
+          </article>
+
+          <article class="row" data-category="volumes" data-name="volume fox">
+            <h3>Volume Fox</h3>
+            <p class="meta">Volume</p>
+            <p class="price"><span>Aplicação</span>R$ 110,00</p>
+            <p class="price"><span>Manutenção</span>R$ 90,00</p>
+            <a class="btn" data-service="Volume Fox" href="#">Agendar</a>
+          </article>
+        </div>
+        <p class="empty" id="vazio" hidden>Nenhum serviço encontrado.</p>
+      </section>
+
+      <section class="block" id="trabalhos">
+        <div class="block-head">
+          <h2>Trabalhos</h2>
+          <p>Resultados feitos no estúdio.</p>
+        </div>
+        <div class="gallery">
+          <button type="button" class="shot" data-full="images/resultado-1.jpg" aria-label="Ampliar foto 1">
+            <img src="images/resultado-1.jpg" alt="Extensão de cílios em olhar castanho" />
+          </button>
+          <button type="button" class="shot" data-full="images/resultado-2.jpg" aria-label="Ampliar foto 2">
+            <img src="images/resultado-2.jpg" alt="Extensão de cílios em olhar verde" />
+          </button>
+          <button type="button" class="shot" data-full="images/resultado-3.jpg" aria-label="Ampliar foto 3">
+            <img src="images/resultado-3.jpg" alt="Extensão de cílios em olhar castanho" />
+          </button>
+          <button type="button" class="shot" data-full="images/resultado-4.jpg" aria-label="Ampliar foto 4">
+            <img src="images/resultado-4.jpg" alt="Extensão de cílios em perfil" />
+          </button>
+        </div>
+      </section>
+
+      <section class="contato" id="contato">
+        <div>
+          <h2>Agenda aberta</h2>
+          <p>Chama no WhatsApp e agende seu horário já!</p>
+          <p class="phone"><a href="tel:+5519991473883">(19) 99147-3883</a></p>
+        </div>
+        <a class="btn btn-solid" data-service="" href="#">Agendar horário</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Lari Lash Studio · Nova Odessa</p>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox">
+      <button type="button" id="fechar">Fechar</button>
+      <img id="lightbox-img" alt="" />
+    </dialog>
+
+    <script src="script.js?v=4" charset="utf-8"></script>
+  </body>
+</html>
