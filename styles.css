@@ -56,6 +56,23 @@ a {
   text-transform: uppercase;
 }
 
+.social {
+  margin: 8px 0 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.social a,
+.footer a {
+  color: var(--rose);
+  text-decoration: none;
+}
+
+.social a:hover,
+.footer a:hover {
+  text-decoration: underline;
+}
+
 .nav {
   display: flex;
   justify-content: center;
